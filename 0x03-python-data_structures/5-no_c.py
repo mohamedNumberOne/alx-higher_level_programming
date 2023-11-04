@@ -7,3 +7,4 @@ def no_c(my_string):
     print(result)
     return result
 
+no_c('dsfslnCCCCcpczicpz,pz,c')
