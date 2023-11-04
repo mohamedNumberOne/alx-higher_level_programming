@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-def element_at(my_list, idx):
-    if idx < 0 or idx > len(my_list) - 1:
-        return 'None'
-    else:
-        return my_list[idx]
-
-
+def max_integer(my_list=[]):
+    if len(my_list) < 0:
+        return "None"
+    else :
+        max = my_list[0]
+        for i in my_list:
+            if i > max :
+                max = i
+        return max 
